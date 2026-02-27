@@ -42,20 +42,23 @@ void loop() {
     analogWrite(greenPin, 0);
     analogWrite(bluePin, 0);
     delay(1000);
-    // Green
-    analogWrite(redPin, 0);
-    analogWrite(greenPin, 255);
-    analogWrite(bluePin, 0);
-    delay(1000);
+     // Green
+  analogWrite(redPin, 0);
+  analogWrite(greenPin, 255);
+  analogWrite(bluePin, 0);
+  delay(1000);
 
-    // Blue
-    analogWrite(redPin, 0);
-    analogWrite(greenPin, 0);
-    analogWrite(bluePin, 255);
-    delay(1000);
+  // Blue
+  analogWrite(redPin, 0);
+  analogWrite(greenPin, 0);
+  analogWrite(bluePin, 255);
+  delay(1000);
 
-    // White
-    analogWrite(redPin, 255);
+  // White
+  analogWrite(redPin, 255);
+  analogWrite(greenPin, 255);
+  analogWrite(bluePin, 255);
+  delay(1000);
 
 
     // -------- DIGITAL MODE --------
