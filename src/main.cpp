@@ -28,6 +28,9 @@ void setup() {
     // Initialize Serial communication (9600 baud)
 
     // TODO 5:
+    pinMode(redPin, OUTPUT);
+    pinMode(greenPin, OUTPUT);
+    pinMode(bluePin, OUTPUT);
     // Configure RGB pins as OUTPUT
 
     // TODO 6:
